@@ -1,1 +1,207 @@
+/* Estilo o apariencia de la página web en CSS */
 
+h1 {
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+h5 {
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+ul {
+    padding-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Noto Sans Display", sans-serif;
+    max-width: fit-content;
+}
+
+nav {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    font-family: "Noto Sans Display", sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+div {
+    padding: 15px;
+}
+
+img {
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: white;
+}
+
+header {
+    position: -webkit-sticky; /* para navegadores Safari */
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 15px;
+    background-color: blue;
+    color: aliceblue;
+}
+
+body {
+    background-color: rgb(186, 185, 255);
+}
+
+section {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgba(141, 141, 141, 0.521);
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    max-width: 600px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 1px;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.inicio {
+    text-align: center;
+}
+
+.fotosexperiencia {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+/* Estilo del formulario responsivo */
+* {
+    box-sizing: border-box;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type="button"] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type="button"]:hover {
+    background-color: lightskyblue;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #ffc4e2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - se adapta al ancho de la pantalla del dispositivo */
+@media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type="button"] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
