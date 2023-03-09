@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CV Roberto Camero</title>
+        <link rel="stylesheet" href="CSS/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/a5123c52ed.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!-- Añade un header con un menú que lleva a los enlaces anclados -->
+        <header>
+            <h1>Roberto Camero</h1>
+            <h2>Currículum Vitae</h2>
+
+            <nav>
+                <a href="#"><strong><i class="fa-solid fa-house"></i> Inicio</strong></a> |
+                <a href="#sobremi"><strong><i class="fa-solid fa-circle-info"></i> Sobre mí</strong></a> |
+                <a href="#experiencia"><strong><i class="fa-solid fa-clock-rotate-left"></i></i> Experiencia</strong></a> |
+                <a href="#habilidades"><strong><i class="fa-solid fa-kitchen-set"></i> Habilidades</strong></a> |
+                <a href="#contacto"><strong><i class="fa-solid fa-message"></i> Contacto</strong></a>
+            </nav>
+        </header>
+
+        <div>
+            <section >
+                <img src="images/fotodeperfil.jpg" alt="Foto de perfil" />
+                <p class="inicio"><i><strong>Mi nombre es Roberto Camero, soy emprendedor, desarrollador de videojuegos, y te doy la bienvenida a mi CV online.</strong></i></p>
+            </section>
+        </div>
+
+        <!-- Breve descripción biográfica/profesional -->
+        <div>
+            <section>
+                <h3 id="sobremi">Sobre mí</h3>
+                <article>
+                    <p>Actualmente me desempeño como emprendedor en el ámbito del desarrollo de videojuegos en forma independiente. Hace poco, he publicado mi
+                        primer videojuego para dispositivos móviles y estando a cargo de todos los aspectos del desarrollo del mismo: diseño, arte, programación,
+                        testeo, publicación y promoción.</p>
+                    <p>También poseo formación y experiencia profesional en el sector aeroportuario, actividad a la que me dediqué hasta hace poco tiempo.</p>
+                </article>
+            </section>
+        </div>
+    
+        <!-- Sección de experiencia -->
+        <div>
+            <section>
+                <h3 id="experiencia">Experiencia</h3>
+                <article>
+                    <h4>Emprendedor y Desarrollador de videojuegos</h4>
+                    <p>Mi emprendimiento consiste en un independiente de desarrollo de videojuegos. Actualmente con un videojuego publicado para
+                        dispositivos móviles, y actualmente con varios proyectos en desarrollo que estrán disponibles para más plataformas como
+                        consolas de videojuegos y computadoras.</p>
+                    <img class="fotosexperiencia" src="images/fotodesarrollovideojuegos.jpg" alt="Foto de mis videojuegos desarrollados">
+                </article>
+
+                <article>
+                    <h4>Sector aeroportuario</h4>
+                    <p>Con amplia formación profesional en el sector aeronáutico, me desempeñé profesionalmente para dos empresas del sector: una línea
+                        aérea y una emopresa de handling aeroportuario. En ambos casos, como Operador del Servicio de Rampa.</p>
+                    <img class="fotosexperiencia" src="images/fotoaeronautica.jpg" alt="Foto de mi experiencia profesional en el sector aeroportuario.">
+                </article>
+            </section>
+        </div>
+
+        <!-- Sección de habilidades -->
+        <div>
+            <section>
+                <h3 id="habilidades">Habilidades</h3>
+                <article>
+                    <h4><u>Informática</u></h4>
+                    <ul>
+                        <li>Lenguajes de programación: Java.</li>
+                        <li>Desarrollo web: HTML, CSS, Javascript, Wordpress.</li>
+                        <li>Software de edición y diseño de imágenes: Blender, Gimp, Inkscape, Krita.</li>
+                        <li>Software de creación y edición de música y sonido: Audacity, LMMS, Musescore.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h4><u>Aeronáutica</u></h4>
+                    <h5>Licencias y Certificados</h5>
+                    <ul>
+                        <li>Licencia de Despachante de Aeronaves.</li>
+                        <li>Licencia de Piloto Privado de Avión.</li>
+                        <li>Certificado de Competencia de Prestación del Servicio de Rampa.</li>
+                        <li>Certificación Médica Aeronáutica Clase 3 - APTO.</li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+
+        <!-- Añade un formulario de contacto -->
+        <div>
+            <section>
+                <h3 id="contacto">Contacto</h3>
+                <form id="formulario" action="" method="post">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Nombre:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Ingrese su nombre..." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Apellido:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Ingrese su apellido..." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Email:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="email" id="email" name="email" placeholder="Ingrese su email..." required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Mensaje</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Escriba su mensaje..." style="height:200px" required></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="button" onclick="enviarMensaje()" value="Enviar">
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        <!-- Añade un footer -->
+        <footer>
+            <h5>Diseño y desarrollo: Roberto Camero</h5>
+        </footer>
+    </body>
+<script src="JS/functions.js"></script>
+</html>
